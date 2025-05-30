@@ -20,6 +20,9 @@ is divided into following sections:
 
         -->
 <<<<<<< HEAD
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dindasalon-impl">
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +48,7 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 <project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTAok-impl">
+>>>>>>> upstream/main
 >>>>>>> upstream/main
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
@@ -646,6 +650,9 @@ is divided into following sections:
                 </union>
                 <taskdef classname="org.testng.TestNGAntTask" classpath="${run.test.classpath}" name="testng"/>
 <<<<<<< HEAD
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dindasalon" testname="TestNG tests" workingDir="${work.dir}">
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +678,7 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
                 <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTAok" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
 >>>>>>> upstream/main
                     <xmlfileset dir="${build.test.classes.dir}" includes="@{testincludes}"/>
                     <propertyset>
@@ -769,6 +777,9 @@ is divided into following sections:
                     <isset property="test.method"/>
                 </condition>
 <<<<<<< HEAD
+                <condition else="-suitename dindasalon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +805,7 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
                 <condition else="-suitename DindaSalonTAok -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
 >>>>>>> upstream/main
                     <matches pattern=".*\.xml" string="@{testClass}"/>
                 </condition>
@@ -1136,6 +1148,9 @@ is divided into following sections:
     </target>
     <target if="already.built.jar.${basedir}" name="-warn-already-built-jar">
 <<<<<<< HEAD
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1161,6 +1176,7 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
         <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
 >>>>>>> upstream/main
     </target>
     <target depends="init,-deps-jar-init" name="deps-jar" unless="no.deps">
@@ -1833,6 +1849,9 @@ is divided into following sections:
     </target>
     <target if="already.built.clean.${basedir}" name="-warn-already-built-clean">
 <<<<<<< HEAD
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1858,6 +1877,7 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
         <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
 >>>>>>> upstream/main
     </target>
     <target depends="init,-deps-clean-init" name="deps-clean" unless="no.deps">
