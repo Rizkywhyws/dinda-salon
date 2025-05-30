@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -13,23 +8,6 @@ import Base.TreatmentKasir;
 import BaseApp.TransaksiKasir;
 import BaseApp.ProductKasir;
 import BaseApp.PembelianKasir;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-
-package BaseApp;
-
-import Base.*;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 import path.KartuMember;
 import java.awt.Color;
 import java.awt.Component;
@@ -43,11 +21,6 @@ import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 import javax.swing.table.TableColumnModel;
 import path.KartuMember;
 import java.sql.ResultSet;
@@ -62,25 +35,6 @@ public class MemberKasir extends javax.swing.JFrame {
      * Creates new form MemberKasir
      */
     public MemberKasir() {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-import path.KartuMember;
-
-public class MemberKasir extends javax.swing.JFrame {
-
-    public MemberKasir() {
-        setUndecorated(true);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         initComponents();
         setLocationRelativeTo(null);
         try {
@@ -89,11 +43,6 @@ public class MemberKasir extends javax.swing.JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         
         // Sembunyikan kolom "id member." (kolom pertama di tampilan)
             TableColumnModel columnModel = tb_member.getColumnModel();
@@ -101,13 +50,6 @@ public class MemberKasir extends javax.swing.JFrame {
                 columnModel.removeColumn(columnModel.getColumn(0)); // Kolom "No."
             }
         
-=======
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         // Buat combobox supplier transparan 
         cmbx_jekel.setOpaque(false);
         cmbx_jekel.setBackground(new Color(0, 0, 0, 0));
@@ -137,23 +79,9 @@ public class MemberKasir extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_cari = new javax.swing.JTextField();
         backBTN = new javax.swing.JButton();
         btnMember = new javax.swing.JButton();
-=======
-        backBTN = new javax.swing.JButton();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        backBTN = new javax.swing.JButton();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnTransaksi = new javax.swing.JButton();
         btnPembelian = new javax.swing.JButton();
         btnProduct = new javax.swing.JButton();
@@ -169,33 +97,14 @@ public class MemberKasir extends javax.swing.JFrame {
         text_nama = new javax.swing.JTextField();
         text_idMem = new javax.swing.JTextField();
         cmbx_jekel = new javax.swing.JComboBox<>();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnCari = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-=======
-        jLabel2 = new javax.swing.JLabel();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jLabel2 = new javax.swing.JLabel();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(936, 666));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_cari.setBorder(javax.swing.BorderFactory.createTitledBorder("Cari"));
         txt_cari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -228,41 +137,11 @@ public class MemberKasir extends javax.swing.JFrame {
         btnTransaksi.setContentAreaFilled(false);
         btnTransaksi.setBorderPainted(false);
         btnTransaksi.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTransaksi50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        backBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        backBTN.setBorder(null);
-        backBTN.setContentAreaFilled(false);
-        backBTN.setBorderPainted(false);
-        backBTN.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
-        jPanel1.add(backBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 880, 90, 80));
-
-        btnTransaksi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntransaksi.png"))); // NOI18N
-        btnTransaksi.setBorder(null);
-        btnTransaksi.setContentAreaFilled(false);
-        btnTransaksi.setBorderPainted(false);
-        btnTransaksi.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtransaksi.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnTransaksi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTransaksiActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnTransaksi, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 220, 73, 70));
 
         btnPembelian.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnPembelian100.png"))); // NOI18N
@@ -270,36 +149,11 @@ public class MemberKasir extends javax.swing.JFrame {
         btnPembelian.setBorderPainted(false);
         btnPembelian.setContentAreaFilled(false);
         btnPembelian.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnPembelian50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnTransaksi, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 90, 90));
-
-        btnPembelian.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnpembelian.png"))); // NOI18N
-        btnPembelian.setBorder(null);
-        btnPembelian.setBorderPainted(false);
-        btnPembelian.setContentAreaFilled(false);
-        btnPembelian.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/bgpembelian.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnPembelian.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPembelianActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnPembelian, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 150, 73, 70));
 
         btnProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnProduk100.png"))); // NOI18N
@@ -307,36 +161,11 @@ public class MemberKasir extends javax.swing.JFrame {
         btnProduct.setContentAreaFilled(false);
         btnProduct.setBorderPainted(false);
         btnProduct.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnProduk50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnPembelian, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 90, 90));
-
-        btnProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnproduk.png"))); // NOI18N
-        btnProduct.setBorder(null);
-        btnProduct.setContentAreaFilled(false);
-        btnProduct.setBorderPainted(false);
-        btnProduct.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/bgproduk.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProductActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 80, 73, 70));
 
         btnTreatment.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTreatment100.png"))); // NOI18N
@@ -344,36 +173,11 @@ public class MemberKasir extends javax.swing.JFrame {
         btnTreatment.setContentAreaFilled(false);
         btnTreatment.setBorderPainted(false);
         btnTreatment.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTreatment50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 90, 90));
-
-        btnTreatment.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntreatment.png"))); // NOI18N
-        btnTreatment.setBorder(null);
-        btnTreatment.setContentAreaFilled(false);
-        btnTreatment.setBorderPainted(false);
-        btnTreatment.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtreatment.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnTreatment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTreatmentActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnTreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 10, 73, 70));
 
         tb_member.setModel(new javax.swing.table.DefaultTableModel(
@@ -385,154 +189,44 @@ public class MemberKasir extends javax.swing.JFrame {
             },
             new String [] {
                 "idMem", "Nama ", "Jenis Kelamin", "No. Telp", "Alamat", "RF ID"
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnTreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, 90));
-
-        tb_member.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Nama ", "Jenis Kelamin", "No. Telp", "Alamat", "RF ID"
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             }
         ));
         jScrollPane1.setViewportView(tb_member);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, -1, 250));
 
         btn_simpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/simpan100.png"))); // NOI18N
         btn_simpan.setContentAreaFilled(false);
         btn_simpan.setBorderPainted(false);
         btn_simpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/simpan50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 670, 550));
-
-        btn_simpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsave.png"))); // NOI18N
-        btn_simpan.setContentAreaFilled(false);
-        btn_simpan.setBorderPainted(false);
-        btn_simpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsave.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btn_simpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_simpanActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btn_simpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 600, 340, 70));
 
         btnPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/print100.png"))); // NOI18N
         btnPrint.setContentAreaFilled(false);
         btnPrint.setBorderPainted(false);
         btnPrint.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/print50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btn_simpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 890, 380, 70));
-
-        btnPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnprint.png"))); // NOI18N
-        btnPrint.setContentAreaFilled(false);
-        btnPrint.setBorderPainted(false);
-        btnPrint.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgprint.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPrintActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 530, -1, -1));
 
         btnHapus.setContentAreaFilled(false);
         btnHapus.setBorderPainted(false);
         btnHapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/hapus100.png"))); // NOI18N
         btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/hapus50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 890, -1, -1));
-
-        btnHapus.setContentAreaFilled(false);
-        btnHapus.setBorderPainted(false);
-        btnHapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btndelete.png"))); // NOI18N
-        btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgdelete.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnHapusActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 530, -1, -1));
-=======
-        jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 890, -1, -1));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 890, -1, -1));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         text_rfid.setBorder(null);
         text_rfid.addActionListener(new java.awt.event.ActionListener() {
@@ -540,11 +234,6 @@ public class MemberKasir extends javax.swing.JFrame {
                 text_rfidActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(text_rfid, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 507, 270, 20));
 
         text_alamat.setBorder(null);
@@ -555,29 +244,6 @@ public class MemberKasir extends javax.swing.JFrame {
 
         text_nama.setBorder(null);
         jPanel1.add(text_nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 260, 270, 20));
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(text_rfid, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 740, 390, 30));
-
-        text_alamat.setBorder(null);
-        jPanel1.add(text_alamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 652, 390, 30));
-
-        text_notelp.setBorder(null);
-        jPanel1.add(text_notelp, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 564, 390, 30));
-
-        text_nama.setBorder(null);
-        jPanel1.add(text_nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 380, 390, 30));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         text_idMem.setEditable(false);
         text_idMem.setBorder(null);
@@ -586,11 +252,6 @@ public class MemberKasir extends javax.swing.JFrame {
                 text_idMemActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(text_idMem, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 200, 270, 20));
 
         cmbx_jekel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih jekel", "Perempuan", "Laki-laki" }));
@@ -609,70 +270,22 @@ public class MemberKasir extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/Membership.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(text_idMem, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 292, 390, 30));
-
-        cmbx_jekel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih jekel", "Perempuan", "Laki-laki" }));
-        jPanel1.add(cmbx_jekel, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 473, 390, 30));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/Membership (1).png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1368, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 973, Short.MAX_VALUE)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnTreatmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTreatmentActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         TreatmentKasir abal = new TreatmentKasir();
         abal.setVisible(true);
         abal.pack();
@@ -712,38 +325,6 @@ public class MemberKasir extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_btnMemberActionPerformed
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        new TreatmentKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnTreatmentActionPerformed
-
-    private void btnProductActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductActionPerformed
-        new ProdukKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnProductActionPerformed
-
-    private void btnPembelianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPembelianActionPerformed
-        new PembelianKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnPembelianActionPerformed
-
-    private void btnTransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTransaksiActionPerformed
-        new TransaksiKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnTransaksiActionPerformed
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
     private void btn_simpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_simpanActionPerformed
         btn_simpan.addActionListener(e -> simpanData());
     }//GEN-LAST:event_btn_simpanActionPerformed
@@ -754,27 +335,6 @@ public class MemberKasir extends javax.swing.JFrame {
 
     private void btnPrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrintActionPerformed
         // Ambil baris yang dipilih dari tabel
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-             String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         int selectedRow = tb_member.getSelectedRow();
         if (selectedRow == -1) {
             javax.swing.JOptionPane.showMessageDialog(this, "Pilih member untuk dicetak!");
@@ -791,11 +351,6 @@ public class MemberKasir extends javax.swing.JFrame {
     }//GEN-LAST:event_btnPrintActionPerformed
 
     private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
          DefaultTableModel model = (DefaultTableModel) tb_member.getModel();
         int selectedRow = tb_member.getSelectedRow();
 
@@ -831,57 +386,12 @@ public class MemberKasir extends javax.swing.JFrame {
         } else {
             JOptionPane.showMessageDialog(this, "Pilih baris yang ingin dihapus!");
         }
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-                String id = text_idMem.getText();
-        
-        String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-
-        int konfirmasi = javax.swing.JOptionPane.showConfirmDialog(this, "Apakah yakin ingin menghapus data ini?", "Konfirmasi", javax.swing.JOptionPane.YES_NO_OPTION);
-        if (konfirmasi == javax.swing.JOptionPane.YES_OPTION) {
-            try {
-                Connection conn = Data.configDB();
-                String sql = "DELETE FROM member WHERE id_member=?";
-                PreparedStatement pst = conn.prepareStatement(sql);
-                pst.setString(1, id);
-
-                int rowsDeleted = pst.executeUpdate();
-                if (rowsDeleted > 0) {
-                    javax.swing.JOptionPane.showMessageDialog(this, "Data berhasil dihapus!");
-                } else {
-                    javax.swing.JOptionPane.showMessageDialog(this, "Data tidak ditemukan.");
-                }
-                LoadData();
-            } catch (SQLException e) {
-                javax.swing.JOptionPane.showMessageDialog(this, "Gagal menghapus data: " + e.getMessage());
-            }
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
     }//GEN-LAST:event_btnHapusActionPerformed
 
     private void text_rfidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_text_rfidActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_text_rfidActionPerformed
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void btnCariActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCariActionPerformed
         cariMember();
     }//GEN-LAST:event_btnCariActionPerformed
@@ -916,13 +426,6 @@ public class MemberKasir extends javax.swing.JFrame {
         }
     }
     
-=======
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     //generate id dan rfid
     private void generateIdMemberDanRFID() {
         try {
@@ -952,27 +455,6 @@ public class MemberKasir extends javax.swing.JFrame {
     }
 
     private void simpanData(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-             String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         String Id, Nama_Pelanggan, Jekel, No_Telp, Alamat, rfid, query;
         int poin;
 
@@ -1024,21 +506,7 @@ public class MemberKasir extends javax.swing.JFrame {
         String url = "jdbc:mysql://localhost:3306/dinda_salon";
         String user = "root";
         String pw = "";
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         String Query = "SELECT id_member, nama_member, jenis_kelamin, notelp_member, alamat_member, rfID FROM member";
-=======
-        String Query = "SELECT nama_member, jenis_kelamin, notelp_member, alamat_member, rfID FROM member";
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        String Query = "SELECT nama_member, jenis_kelamin, notelp_member, alamat_member, rfID FROM member";
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         
         try {
             Connection connect = java.sql.DriverManager.getConnection(url, user, pw);
@@ -1050,19 +518,7 @@ public class MemberKasir extends javax.swing.JFrame {
             
             while (rs.next()) {                
                 Object[] row = {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 rs.getString("id_member"),
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-                rs.getString("id_member"),
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                 rs.getString("nama_member"),
                 rs.getString("jenis_kelamin"),
                 rs.getString("notelp_member"),
@@ -1080,20 +536,6 @@ public class MemberKasir extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -1116,20 +558,6 @@ public class MemberKasir extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(MemberKasir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        //</editor-fold>
->>>>>>> upstream/main
-=======
-        //</editor-fold>
->>>>>>> upstream/main
-=======
-=======
-        //</editor-fold>
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -1141,23 +569,9 @@ public class MemberKasir extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backBTN;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JButton btnCari;
     private javax.swing.JButton btnHapus;
     private javax.swing.JButton btnMember;
-=======
-    private javax.swing.JButton btnHapus;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private javax.swing.JButton btnHapus;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JButton btnPembelian;
     private javax.swing.JButton btnPrint;
     private javax.swing.JButton btnProduct;
@@ -1165,21 +579,7 @@ public class MemberKasir extends javax.swing.JFrame {
     private javax.swing.JButton btnTreatment;
     private javax.swing.JButton btn_simpan;
     private javax.swing.JComboBox<String> cmbx_jekel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JLabel jLabel1;
-=======
-    private javax.swing.JLabel jLabel2;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private javax.swing.JLabel jLabel2;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tb_member;
@@ -1188,18 +588,6 @@ public class MemberKasir extends javax.swing.JFrame {
     private javax.swing.JTextField text_nama;
     private javax.swing.JTextField text_notelp;
     private javax.swing.JTextField text_rfid;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     private javax.swing.JTextField txt_cari;
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-    private javax.swing.JTextField txt_cari;
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     // End of variables declaration//GEN-END:variables
 }
