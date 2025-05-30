@@ -1,6 +1,17 @@
 package admin;
 
 public class dashboard extends javax.swing.JFrame {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/main
+=======
+
+>>>>>>> upstream/main
+>>>>>>> upstream/main
   
     public dashboard() {
         initComponents();

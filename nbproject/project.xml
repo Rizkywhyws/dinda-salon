@@ -3,7 +3,19 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>dindasalon</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <name>dindasalon</name>
+=======
+            <name>DindaSalonTAok</name>
+>>>>>>> upstream/main
+=======
+            <name>DindaSalonTAok</name>
+>>>>>>> upstream/main
+>>>>>>> upstream/main
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
@@ -12,4 +24,16 @@
             </test-roots>
         </data>
     </configuration>
+<<<<<<< HEAD
 </project>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+</project>
+=======
+</project>
+>>>>>>> upstream/main
+=======
+</project>
+>>>>>>> upstream/main
+>>>>>>> upstream/main

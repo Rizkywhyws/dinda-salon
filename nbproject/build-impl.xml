@@ -19,7 +19,37 @@ is divided into following sections:
   - cleanup
 
         -->
+<<<<<<< HEAD
 <project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dindasalon-impl">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dinda_salon-impl">
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTA-impl">
+>>>>>>> upstream/main
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dindasalon-impl">
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dindasalon-impl">
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTAok-impl">
+>>>>>>> upstream/main
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTAok-impl">
+>>>>>>> upstream/main
+>>>>>>> upstream/main
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
             <not>
@@ -619,7 +649,37 @@ is divided into following sections:
                     </fileset>
                 </union>
                 <taskdef classname="org.testng.TestNGAntTask" classpath="${run.test.classpath}" name="testng"/>
+<<<<<<< HEAD
                 <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dindasalon" testname="TestNG tests" workingDir="${work.dir}">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dinda_salon" testname="TestNG tests" workingDir="${work.dir}">
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTA" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dindasalon" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dindasalon" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTAok" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTAok" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
+>>>>>>> upstream/main
                     <xmlfileset dir="${build.test.classes.dir}" includes="@{testincludes}"/>
                     <propertyset>
                         <propertyref prefix="test-sys-prop."/>
@@ -716,7 +776,37 @@ is divided into following sections:
                 <condition else="-testclass @{testClass}" property="test.class.or.method" value="-methods @{testClass}.@{testMethod}">
                     <isset property="test.method"/>
                 </condition>
+<<<<<<< HEAD
                 <condition else="-suitename dindasalon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+                <condition else="-suitename dinda_salon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+=======
+                <condition else="-suitename DindaSalonTA -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
+=======
+                <condition else="-suitename dindasalon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+                <condition else="-suitename dindasalon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+                <condition else="-suitename DindaSalonTAok -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
+=======
+                <condition else="-suitename DindaSalonTAok -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
+>>>>>>> upstream/main
                     <matches pattern=".*\.xml" string="@{testClass}"/>
                 </condition>
                 <delete dir="${build.test.results.dir}" quiet="true"/>
@@ -1057,7 +1147,37 @@ is divided into following sections:
         <delete file="${built-jar.properties}" quiet="true"/>
     </target>
     <target if="already.built.jar.${basedir}" name="-warn-already-built-jar">
+<<<<<<< HEAD
         <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+        <echo level="warn" message="Cycle detected: dinda_salon was already built"/>
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTA was already built"/>
+>>>>>>> upstream/main
+=======
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
+>>>>>>> upstream/main
     </target>
     <target depends="init,-deps-jar-init" name="deps-jar" unless="no.deps">
         <mkdir dir="${build.dir}"/>
@@ -1728,7 +1848,37 @@ is divided into following sections:
         <delete file="${built-clean.properties}" quiet="true"/>
     </target>
     <target if="already.built.clean.${basedir}" name="-warn-already-built-clean">
+<<<<<<< HEAD
         <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+        <echo level="warn" message="Cycle detected: dinda_salon was already built"/>
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTA was already built"/>
+>>>>>>> upstream/main
+=======
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+        <echo level="warn" message="Cycle detected: dindasalon was already built"/>
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
+>>>>>>> upstream/main
     </target>
     <target depends="init,-deps-clean-init" name="deps-clean" unless="no.deps">
         <mkdir dir="${build.dir}"/>
