@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -23,30 +18,6 @@ public class DashboardKasir extends javax.swing.JFrame {
     public DashboardKasir() {
         initComponents();
         setLocationRelativeTo(null);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-package BaseApp;
-
-import javax.swing.JOptionPane;
-
-public class DashboardKasir extends javax.swing.JFrame {
-
-    public DashboardKasir() {
-        setUndecorated(true);
-        initComponents();
-        setLocationRelativeTo(null);
- 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
     }
 
     /**
@@ -59,11 +30,6 @@ public class DashboardKasir extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnBack = new javax.swing.JButton();
         btnMember = new javax.swing.JButton();
         btnTransaksi = new javax.swing.JButton();
@@ -156,120 +122,10 @@ public class DashboardKasir extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        btntreatment = new javax.swing.JButton();
-        btnproduk = new javax.swing.JButton();
-        btnpembelian = new javax.swing.JButton();
-        btnmembership = new javax.swing.JButton();
-        btntransaksi = new javax.swing.JButton();
-        btnback = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        btntreatment.setContentAreaFilled(false);
-        btntreatment.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntreatment.png"))); // NOI18N
-        btntreatment.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtreatment.png"))); // NOI18N
-        btntreatment.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btntreatmentActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btntreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, 90));
-        btntreatment.setBorderPainted(false);
-
-        btnproduk.setContentAreaFilled(false);
-        btnproduk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnproduk.png"))); // NOI18N
-        btnproduk.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgproduk.png"))); // NOI18N
-        btnproduk.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnprodukActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btnproduk, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 90, 90));
-        btnproduk.setBorderPainted(false);
-
-        btnpembelian.setContentAreaFilled(false);
-        btnpembelian.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnpembelian.png"))); // NOI18N
-        btnpembelian.setToolTipText("");
-        btnpembelian.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgpembelian.png"))); // NOI18N
-        btnpembelian.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnpembelianActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btnpembelian, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 90, 90));
-        btnpembelian.setBorderPainted(false);
-
-        btnmembership.setContentAreaFilled(false);
-        btnmembership.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnmembership.png"))); // NOI18N
-        btnmembership.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgmembership.png"))); // NOI18N
-        btnmembership.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnmembershipActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btnmembership, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 90, 90));
-        btnmembership.setBorderPainted(false);
-
-        btntransaksi.setContentAreaFilled(false);
-        btntransaksi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntransaksi.png"))); // NOI18N
-        btntransaksi.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtransaksi.png"))); // NOI18N
-        btntransaksi.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btntransaksiActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btntransaksi, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 90, 90));
-        btntransaksi.setBorderPainted(false);
-
-        btnback.setContentAreaFilled(false);
-        btnback.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        btnback.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
-        btnback.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btnbackMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btnbackMouseExited(evt);
-            }
-        });
-        btnback.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btnback, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 880, 90, 80));
-        btnback.setBorderPainted(false);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/DashboardAdmin.png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, 970));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void btnTransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTransaksiActionPerformed
         TransaksiKasir abal = new TransaksiKasir();
         abal.setVisible(true);
@@ -313,70 +169,6 @@ public class DashboardKasir extends javax.swing.JFrame {
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         
     }//GEN-LAST:event_btnBackActionPerformed
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-    private void btntreatmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntreatmentActionPerformed
-        // TODO add your handling code here:
-        new TreatmentKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btntreatmentActionPerformed
-
-    private void btnprodukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnprodukActionPerformed
-        // TODO add your handling code here:
-        new ProdukKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnprodukActionPerformed
-
-    private void btnpembelianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnpembelianActionPerformed
-        // TODO add your handling code here:
-        new PembelianKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnpembelianActionPerformed
-
-    private void btnmembershipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmembershipActionPerformed
-        // TODO add your handling code here:
-        new MemberKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnmembershipActionPerformed
-
-    private void btntransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntransaksiActionPerformed
-        // TODO add your handling code here:
-        new TransaksiKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btntransaksiActionPerformed
-
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
-        // TODO add your handling code here:
-        int dialogBtn = JOptionPane.YES_NO_OPTION;
-        int dialogResult = JOptionPane.showConfirmDialog(this, "apakah anda yakin ingin keluar?","PERINGATAN",dialogBtn);
-
-        if(dialogResult == 0) {
-            Login n = new Login();
-            n.setVisible(true);
-            dispose();
-        }else{
-
-        }
-    }//GEN-LAST:event_btnbackActionPerformed
-
-    private void btnbackMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnbackMouseEntered
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnbackMouseEntered
-
-    private void btnbackMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnbackMouseExited
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnbackMouseExited
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
     /**
      * @param args the command line arguments
@@ -405,24 +197,6 @@ public class DashboardKasir extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(DashboardKasir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-=======
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -433,11 +207,6 @@ public class DashboardKasir extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnMember;
     private javax.swing.JButton btnPembelian;
@@ -445,26 +214,6 @@ public class DashboardKasir extends javax.swing.JFrame {
     private javax.swing.JButton btnTransaksi;
     private javax.swing.JButton btnTreatment;
     private javax.swing.JLabel jLabel1;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-    private javax.swing.JButton btnback;
-    private javax.swing.JButton btnmembership;
-    private javax.swing.JButton btnpembelian;
-    private javax.swing.JButton btnproduk;
-    private javax.swing.JButton btntransaksi;
-    private javax.swing.JButton btntreatment;
-    private javax.swing.JLabel jLabel2;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
