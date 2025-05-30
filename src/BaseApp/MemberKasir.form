@@ -23,40 +23,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-=======
-          <Component id="jPanel1" alignment="0" pref="1368" max="32767" attributes="0"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-          <Component id="jPanel1" alignment="0" pref="1368" max="32767" attributes="0"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
           <Component id="jPanel1" alignment="0" pref="670" max="32767" attributes="0"/>
-=======
-          <Component id="jPanel1" alignment="0" pref="973" max="32767" attributes="0"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-          <Component id="jPanel1" alignment="0" pref="973" max="32767" attributes="0"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
       </Group>
     </DimensionLayout>
   </Layout>
@@ -72,11 +44,6 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         <Component class="javax.swing.JTextField" name="txt_cari">
           <Properties>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -98,52 +65,16 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/back100.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        <Component class="javax.swing.JButton" name="backBTN">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/back.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor" postCode="backBTN.setContentAreaFilled(false);&#xa;backBTN.setBorderPainted(false);">
               <Border info="null"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/back50.png"/>
-=======
-              <Image iconType="3" name="/Image/back1.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Image/back1.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="570" width="73" height="70"/>
             </Constraint>
           </Constraints>
@@ -166,56 +97,19 @@
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="5" y="290" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="880" width="90" height="80"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="880" width="90" height="80"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnTransaksi">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnTransaksi100.png"/>
-=======
-              <Image iconType="3" name="/Image/btntransaksi.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Image/btntransaksi.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor" postCode="btnTransaksi.setContentAreaFilled(false);&#xa;btnTransaksi.setBorderPainted(false);">
               <Border info="null"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnTransaksi50.png"/>
-=======
-              <Image iconType="3" name="/Image/bgtransaksi.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Image/bgtransaksi.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Events>
@@ -223,62 +117,20 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="220" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="280" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="280" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnPembelian">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnPembelian100.png"/>
-=======
-              <Image iconType="3" name="/button/btnpembelian.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/button/btnpembelian.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor" postCode="btnPembelian.setBorderPainted(false);&#xa;btnPembelian.setContentAreaFilled(false);">
               <Border info="null"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnPembelian50.png"/>
-=======
-              <Image iconType="3" name="/button/bgpembelian.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/button/bgpembelian.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Events>
@@ -286,62 +138,20 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="150" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="190" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="190" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnProduct">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnProduk100.png"/>
-=======
-              <Image iconType="3" name="/button/btnproduk.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/button/btnproduk.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor" postCode="btnProduct.setContentAreaFilled(false);&#xa;btnProduct.setBorderPainted(false);">
               <Border info="null"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnProduk50.png"/>
-=======
-              <Image iconType="3" name="/button/bgproduk.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/button/bgproduk.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Events>
@@ -349,62 +159,20 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="80" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="100" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="100" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnTreatment">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnTreatment100.png"/>
-=======
-              <Image iconType="3" name="/Image/btntreatment.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Image/btntreatment.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor" postCode="btnTreatment.setContentAreaFilled(false);&#xa;btnTreatment.setBorderPainted(false);">
               <Border info="null"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnTreatment50.png"/>
-=======
-              <Image iconType="3" name="/Image/bgtreatment.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Image/bgtreatment.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Events>
@@ -412,21 +180,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="10" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="10" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="10" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -436,21 +190,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="120" y="210" width="-1" height="250"/>
-=======
-              <AbsoluteConstraints x="170" y="190" width="670" height="550"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="170" y="190" width="670" height="550"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
 
@@ -459,22 +199,8 @@
             <Component class="javax.swing.JTable" name="tb_member">
               <Properties>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                   <Table columnCount="6" rowCount="4">
                     <Column editable="true" title="idMem" type="java.lang.Object"/>
-=======
-                  <Table columnCount="5" rowCount="4">
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-                  <Table columnCount="5" rowCount="4">
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                     <Column editable="true" title="Nama " type="java.lang.Object"/>
                     <Column editable="true" title="Jenis Kelamin" type="java.lang.Object"/>
                     <Column editable="true" title="No. Telp" type="java.lang.Object"/>
@@ -509,23 +235,11 @@
                       <Editor/>
                       <Renderer/>
                     </Column>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                     <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
                       <Title/>
                       <Editor/>
                       <Renderer/>
                     </Column>
-=======
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                   </TableColumnModel>
                 </Property>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
@@ -538,32 +252,10 @@
         <Component class="javax.swing.JButton" name="btn_simpan">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor" postCode="btn_simpan.setContentAreaFilled(false);&#xa;btn_simpan.setBorderPainted(false);">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/simpan100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/simpan50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnsave.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgsave.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -571,53 +263,17 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="590" y="600" width="340" height="70"/>
-=======
-              <AbsoluteConstraints x="910" y="890" width="380" height="70"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="890" width="380" height="70"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnPrint">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor" postCode="btnPrint.setContentAreaFilled(false);&#xa;btnPrint.setBorderPainted(false);">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/print100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/print50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnprint.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgprint.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -625,53 +281,17 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="170" y="530" width="-1" height="-1"/>
-=======
-              <AbsoluteConstraints x="300" y="890" width="-1" height="-1"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="300" y="890" width="-1" height="-1"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnHapus">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/hapus100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/hapus50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btndelete.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgdelete.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -682,21 +302,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="380" y="530" width="-1" height="-1"/>
-=======
-              <AbsoluteConstraints x="520" y="890" width="-1" height="-1"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="520" y="890" width="-1" height="-1"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -711,21 +317,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="507" width="270" height="20"/>
-=======
-              <AbsoluteConstraints x="910" y="740" width="390" height="30"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="740" width="390" height="30"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -737,21 +329,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="446" width="270" height="20"/>
-=======
-              <AbsoluteConstraints x="910" y="652" width="390" height="30"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="652" width="390" height="30"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -763,21 +341,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="386" width="270" height="20"/>
-=======
-              <AbsoluteConstraints x="910" y="564" width="390" height="30"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="564" width="390" height="30"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -789,21 +353,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="260" width="270" height="20"/>
-=======
-              <AbsoluteConstraints x="910" y="380" width="390" height="30"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="380" width="390" height="30"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -819,21 +369,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="200" width="270" height="20"/>
-=======
-              <AbsoluteConstraints x="910" y="292" width="390" height="30"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="910" y="292" width="390" height="30"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -852,11 +388,6 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="620" y="320" width="260" height="30"/>
             </Constraint>
           </Constraints>
@@ -883,27 +414,6 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/designKasir/Membership.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <AbsoluteConstraints x="910" y="473" width="390" height="30"/>
-            </Constraint>
-          </Constraints>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Frame/Membership (1).png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Constraints>
