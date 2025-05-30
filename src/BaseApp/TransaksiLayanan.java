@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -11,19 +6,6 @@ package BaseApp;
 
 import Base.SignIn;
 import BaseApp.TransaksiKasir;
-=======
-package BaseApp;
-
-import Base.*;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-package BaseApp;
-
-import Base.*;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 import java.awt.Color;
 import java.awt.Component;
 import java.sql.Connection;
@@ -47,11 +29,6 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /**
  *
  * @author ASUS
@@ -65,24 +42,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         this.Id = SignIn.LoggedInUser;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-public class TransaksiLayanan extends javax.swing.JFrame {
-
-    public TransaksiLayanan() {
-        initComponents();
-        setLocationRelativeTo(null);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         // Ambil model kolom
         TableColumnModel columnModel = tb_sementara.getColumnModel();
 
@@ -234,32 +193,10 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         txt_kembali = new javax.swing.JTextField();
         txt_bayar = new javax.swing.JTextField();
         txt_total = new javax.swing.JTextField();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_poin = new javax.swing.JTextField();
         txt_rfId = new javax.swing.JTextField();
         cmbx_diskon = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        txt_rfId = new javax.swing.JTextField();
-        txt_poin = new javax.swing.JTextField();
-        cmbx_diskon = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -268,119 +205,37 @@ public class TransaksiLayanan extends javax.swing.JFrame {
 
         btnSimpan.setContentAreaFilled(false);
         btnSimpan.setBorderPainted(false);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 60 (1).png"))); // NOI18N
         btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 60.png"))); // NOI18N
-=======
-        btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsimpan.png"))); // NOI18N
-        btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsimpan.png"))); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsimpan.png"))); // NOI18N
-        btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsimpan.png"))); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnSimpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSimpanActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 140, -1, -1));
 
         btnBayar.setContentAreaFilled(false);
         btnBayar.setBorderPainted(false);
         btnBayar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/Group 27.png"))); // NOI18N
         btnBayar.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 27 (1).png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 160, -1, -1));
-
-        btnBayar.setContentAreaFilled(false);
-        btnBayar.setBorderPainted(false);
-        btnBayar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnbayar.png"))); // NOI18N
-        btnBayar.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgbayar.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnBayar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBayarActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnBayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 570, -1, -1));
 
         btnBack.setContentAreaFilled(false);
         btnBack.setBorderPainted(false);
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/back100.png"))); // NOI18N
         btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/back50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnBayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 820, -1, -1));
-
-        btnBack.setContentAreaFilled(false);
-        btnBack.setBorderPainted(false);
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 20, -1, -1));
 
-=======
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, -1));
-
-        tb_sementara.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, -1));
-
-        tb_sementara.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         tb_sementara.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -391,26 +246,8 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tb_sementara);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 240, 670, 150));
 
-=======
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, 1030, 250));
-
-        cmbx_layanan.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, 1030, 250));
-
-        cmbx_layanan.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         cmbx_layanan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Layanan" }));
         cmbx_layanan.setBorder(null);
         cmbx_layanan.addActionListener(new java.awt.event.ActionListener() {
@@ -418,11 +255,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
                 cmbx_layananActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(cmbx_layanan, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 150, 30));
 
         txt_subtotal.setBorder(null);
@@ -439,136 +271,37 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         btnHapus.setContentAreaFilled(false);
         btnHapus.setBorderPainted(false);
         btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 80 (1).png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(cmbx_layanan, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 52, 230, 30));
-
-        txt_subtotal.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-        txt_subtotal.setBorder(null);
-        jPanel1.add(txt_subtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 100, 240, 40));
-
-        txt_jumlah.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-        txt_jumlah.setBorder(null);
-        jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 50, 240, 40));
-
-        txt_harga.setEditable(false);
-        txt_harga.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-        txt_harga.setBorder(null);
-        jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 110, 230, 40));
-
-        btnHapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btndel.png"))); // NOI18N
-        btnHapus.setContentAreaFilled(false);
-        btnHapus.setBorderPainted(false);
-        btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgdel.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnHapusActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 400, -1, -1));
 
         txt_kembali.setEditable(false);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 610, -1, -1));
-
-        txt_kembali.setEditable(false);
-        txt_kembali.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         txt_kembali.setBorder(null);
         txt_kembali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_kembaliActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 520, 140, 30));
 
-=======
-        jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 767, 240, 30));
-
-        txt_bayar.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 767, 240, 30));
-
-        txt_bayar.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_bayar.setBorder(null);
         txt_bayar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_bayarActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 480, 140, 30));
 
         txt_total.setEditable(false);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(txt_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 710, 240, 30));
-
-        txt_total.setEditable(false);
-        txt_total.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         txt_total.setBorder(null);
         txt_total.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_totalActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 600, 140, 30));
 
         txt_poin.setBorder(null);
@@ -579,122 +312,34 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         });
         jPanel1.add(txt_poin, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 519, 140, 30));
 
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 883, 230, 30));
-
-        txt_rfId.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 883, 230, 30));
-
-        txt_rfId.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_rfId.setBorder(null);
         txt_rfId.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_rfIdActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         jPanel1.add(txt_rfId, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 479, 140, 30));
 
-=======
-=======
->>>>>>> upstream/main
-=======
-        jPanel1.add(txt_rfId, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 479, 140, 30));
-
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(txt_rfId, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 707, 230, 30));
-
-        txt_poin.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-        txt_poin.setBorder(null);
-        txt_poin.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txt_poinActionPerformed(evt);
-            }
-        });
-        jPanel1.add(txt_poin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 765, 230, 30));
-
-        cmbx_diskon.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         cmbx_diskon.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih diskon" }));
         cmbx_diskon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbx_diskonActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(cmbx_diskon, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 560, 150, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/transaksi layanan (1).png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 670));
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(cmbx_diskon, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 826, 240, 30));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/transaksi layanan.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 940, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 673, Short.MAX_VALUE)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1374, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 983, Short.MAX_VALUE)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         );
 
         pack();
@@ -744,30 +389,7 @@ public class TransaksiLayanan extends javax.swing.JFrame {
     }
     
     private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
          try {
-=======
-=======
->>>>>>> upstream/main
-=======
-         try {
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-        try {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
              //validasi agar inputan di isi oleh user
             if (cmbx_layanan.getSelectedIndex() == 0) {
                 JOptionPane.showMessageDialog(this, "Harap Pilih Salah Satu!", "ERROR", JOptionPane.WARNING_MESSAGE);
@@ -833,27 +455,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSimpanActionPerformed
 
     private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-          String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         DefaultTableModel model = (DefaultTableModel) tb_sementara.getModel();
         int selectedRow = tb_sementara.getSelectedRow();
 
@@ -891,46 +492,14 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnHapusActionPerformed
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void txt_rfIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_rfIdActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_rfIdActionPerformed
-=======
-    private void txt_poinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_poinActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_poinActionPerformed
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private void txt_poinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_poinActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_poinActionPerformed
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
     private void cariMemberByRFID(String rfid) {
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             String sql = "SELECT * FROM member WHERE rfid = ?";
-=======
-            String sql = "SELECT * FROM member WHERE rfID = ?";
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-            String sql = "SELECT * FROM member WHERE rfID = ?";
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             PreparedStatement ps = con.prepareStatement(sql);
             ps.setString(1, rfid);
             ResultSet rs = ps.executeQuery();
@@ -950,27 +519,9 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         }
     }
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void txt_poinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_poinActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_poinActionPerformed
-=======
-    private void txt_rfIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_rfIdActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_rfIdActionPerformed
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private void txt_rfIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_rfIdActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_rfIdActionPerformed
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
     private void txt_totalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_totalActionPerformed
         // TODO add your handling code here:
@@ -1009,11 +560,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_cmbx_diskonActionPerformed
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     class LayananItem {
         String id_sementara;
         String id_layanan;
@@ -1030,37 +576,11 @@ public class TransaksiLayanan extends javax.swing.JFrame {
     
     private void btnBayarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBayarActionPerformed
         try {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-    private void btnBayarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBayarActionPerformed
-           String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-        try {
-            // Validasi agar inputan diisi oleh user
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             if (cmbx_diskon.getSelectedIndex() == 0) {
                 JOptionPane.showMessageDialog(this, "Harap Pilih Salah Satu!", "ERROR", JOptionPane.WARNING_MESSAGE);
                 return;
             }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             DefaultTableModel model = (DefaultTableModel) tb_sementara.getModel();
             List<LayananItem> items = new ArrayList<>();
 
@@ -1072,38 +592,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
                 items.add(new LayananItem(id_sm, idLayanan, jumlah, subtotal));
             }
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            // Mendapatkan model tabel
-            DefaultTableModel model = (DefaultTableModel) tb_sementara.getModel();
-
-            // Membuat list untuk menyimpan data
-            List<String[]> listData = new ArrayList<>();
-
-            // Iterasi melalui semua baris di tabel
-            for (int i = 0; i < model.getRowCount(); i++) {
-                String id_sm = model.getValueAt(i, 0).toString();
-                String idLayanan = model.getValueAt(i, 1).toString(); // Kode
-                String jumlah = model.getValueAt(i, 4).toString(); // Jumlah
-                String subtotal = model.getValueAt(i, 5).toString(); // Subtotal
-
-                // Menyimpan data dalam array
-                String[] data = {id_sm, idLayanan, jumlah, subtotal};
-                listData.add(data); // Menambahkan array ke list
-            }
-            
-            //pengambilan id member 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             String RF = txt_rfId.getText();
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
             String query = "SELECT id_member FROM member WHERE rfID = ?";
@@ -1111,11 +599,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
             stm.setString(1, RF);
             ResultSet rs = stm.executeQuery();
             String idmemb = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             if (rs.next()) {
                 idmemb = rs.getString("id_member");
             } else {
@@ -1125,63 +608,12 @@ public class TransaksiLayanan extends javax.swing.JFrame {
 
             int diskon = getIdFromComboBox(cmbx_diskon);
             int IdUser = SessionLogin.getIdUser();
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-                if (rs.next()) {
-                    idmemb = rs.getString("id_member");
-                } else{
-                    JOptionPane.showMessageDialog(this, "Member tidak ditemukan!", "ERROR", JOptionPane.WARNING_MESSAGE);
-                    return;
-                }        
-            // Proses inisialisasi 
-            int diskon = getIdFromComboBox(cmbx_diskon);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             LocalDate tgl_jual = LocalDate.now();
             String total_jual = txt_total.getText();
             String bayar_jual = txt_bayar.getText();
             String kembali_jual = txt_kembali.getText();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             SimpanTransaksi(IdUser, idmemb, diskon, tgl_jual, total_jual, bayar_jual, kembali_jual, items);
-=======
-=======
->>>>>>> upstream/main
-=======
-
-            SimpanTransaksi(IdUser, idmemb, diskon, tgl_jual, total_jual, bayar_jual, kembali_jual, items);
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            String kd_brg = "P000000";
-            
-            // Melakukan transaksi untuk setiap item dalam listData
-            for (String[] data : listData) {
-                String id_sm = data[0]; // Kode barang
-                String idLayanan = data[1]; // Kode barang
-                String jumlah = data[2]; // Jumlah
-                String subtotal = data[3]; // Subtotal
-
-                // Memanggil method lain untuk menyimpan transaksi
-                SimpanTransaksi(username, idmemb, diskon, tgl_jual, total_jual, bayar_jual, kembali_jual, kd_brg, jumlah, subtotal, id_sm, idLayanan);
-            }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "YAHH Gagal melakukan transaksi: " + e.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
@@ -1189,75 +621,26 @@ public class TransaksiLayanan extends javax.swing.JFrame {
     }//GEN-LAST:event_btnBayarActionPerformed
 
     //proses simpan data ke database
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void SimpanTransaksi(int IdUser, String idmemb, int diskon, LocalDate tgl_jual,
                              String total_jual, String bayar_jual, String kembali_jual,
                              List<LayananItem> items) {
-=======
-    private void SimpanTransaksi(String IdUser, String idmemb,int diskon,LocalDate tgl_jual, String total_jual, String bayar_jual, String kembali_jual, String kd_brg, String jumlah, String subtotal, String id_sm, String idLayanan){
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private void SimpanTransaksi(String IdUser, String idmemb,int diskon,LocalDate tgl_jual, String total_jual, String bayar_jual, String kembali_jual, String kd_brg, String jumlah, String subtotal, String id_sm, String idLayanan){
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         Connection conn = null;
         PreparedStatement stmt1 = null;
         PreparedStatement stmt2 = null;
         PreparedStatement stmt3 = null;
         try {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
             conn.setAutoCommit(false);
 
             String insert1 = "INSERT INTO transaksi (id_user, id_member, id_promo, tgl_transaksi, total_transaksi, bayar, kembali) VALUES (?, ?, ?, ?, ?, ?, ?)";
             stmt1 = conn.prepareStatement(insert1, Statement.RETURN_GENERATED_KEYS);
             stmt1.setInt(1, IdUser);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            String url = "jdbc:mysql://localhost:3306/dinda_salon";
-            String user = "root";
-            String pw = "";
-            conn = DriverManager.getConnection(url, user, pw);
-            
-            //mengaktifkan auto-commit untuk memulai transaksi
-            conn.setAutoCommit(false);
-            
-            //query untuk menambah data ke database
-            String insert1 = "INSERT INTO transaksi (id_user, id_member, id_promo, tgl_transaksi, total_transaksi, bayar, kembali) VALUES (?, ?, ?, ?, ?, ?, ?)";
-            stmt1 = conn.prepareStatement(insert1, Statement.RETURN_GENERATED_KEYS);
-            stmt1.setString(1, IdUser);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             stmt1.setString(2, idmemb);
             stmt1.setInt(3, diskon);
             stmt1.setDate(4, java.sql.Date.valueOf(tgl_jual));
             stmt1.setString(5, total_jual);
             stmt1.setString(6, bayar_jual);
             stmt1.setString(7, kembali_jual);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
             int affectedRows = stmt1.executeUpdate();
             int idTrans = 0;
@@ -1295,68 +678,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
             new TransaksiKasir().setVisible(true);
             this.dispose();
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            
-            //eksekusi table pertama
-            int afectedrows = stmt1.executeUpdate();
-            
-            //ambil id transaksi yang baru saja dimasukkan
-            int idTrans = 0;
-            if (afectedrows > 0) {
-                try (ResultSet generatedKeys = stmt1.getGeneratedKeys()){
-                    if (generatedKeys.next()) {
-                        idTrans = generatedKeys.getInt(1);
-                    }
-                } 
-            }
-            
-            //jika tidak ada id, maka batalkan transaksi
-            if (idTrans == 0) {
-                throw new SQLException("Menyimpan transaksi gagal, Id transaksi tidak tersedia!");
-            }
-            
-            //query untuk menambah ke detail pembelian
-            String insert2 = "INSERT INTO detail_transaksi (id_detail, id_transaksi,id_layanan, kd_produk, jumlah_jual, subtotal) VALUES (?, ?, ?, ?, ?, ?)";
-            stmt2 = conn.prepareStatement(insert2);
-            stmt2.setString(1, id_sm);
-            stmt2.setInt(2, idTrans);
-            stmt2.setString(3, idLayanan);
-            stmt2.setString(4, kd_brg);
-            stmt2.setString(5, jumlah);
-            stmt2.setString(6, subtotal);
-            stmt2.executeUpdate();
-            
-            String hapus = "DELETE FROM detail_sementara WHERE id_sementara = ?";
-            stmt3 = conn.prepareStatement(hapus);
-            stmt3.setString(1, id_sm);
-            
-            int result = stmt3.executeUpdate();
-            
-            //jika kedua query berhasil, commit transaksi
-            conn.commit();
-            
-             if (result > 0) {
-            // Tampilkan pesan sukses dan reset form
-                JOptionPane.showMessageDialog(this, "Transaksi berhasil ditambahkan.", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-            } else {
-                JOptionPane.showMessageDialog(this, "Gagal menambahkan transaksi. Coba lagi.", "Error", JOptionPane.ERROR_MESSAGE);
-            }
-             
-             new TransaksiKasir().setVisible(true);
-             this.dispose();
-             
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         } catch (Exception e) {
             if (conn != null) {
                 try {
@@ -1365,21 +686,7 @@ public class TransaksiLayanan extends javax.swing.JFrame {
                     ex.printStackTrace();
                 }
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             JOptionPane.showMessageDialog(this, "Gagal menyimpan transaksi: " + e.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
-=======
-            JOptionPane.showMessageDialog(null, "Gagal menyimpan transaksi: " + e.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-            JOptionPane.showMessageDialog(null, "Gagal menyimpan transaksi: " + e.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             e.printStackTrace();
         } finally {
             try {
@@ -1534,20 +841,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -1573,26 +866,6 @@ public class TransaksiLayanan extends javax.swing.JFrame {
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -1609,21 +882,7 @@ public class TransaksiLayanan extends javax.swing.JFrame {
     private javax.swing.JButton btnSimpan;
     private javax.swing.JComboBox<String> cmbx_diskon;
     private javax.swing.JComboBox<String> cmbx_layanan;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JLabel jLabel1;
-=======
-    private javax.swing.JLabel jLabel3;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private javax.swing.JLabel jLabel3;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tb_sementara;
