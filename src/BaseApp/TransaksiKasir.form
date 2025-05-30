@@ -45,21 +45,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
           <Component id="jPanel2" alignment="0" pref="673" max="32767" attributes="0"/>
-=======
-          <Component id="jPanel2" alignment="0" pref="983" max="32767" attributes="0"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-          <Component id="jPanel2" alignment="0" pref="983" max="32767" attributes="0"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
       </Group>
     </DimensionLayout>
   </Layout>
@@ -78,32 +64,10 @@
         <Component class="javax.swing.JButton" name="btnPrint">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/print100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/print50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnprint.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgprint.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -114,53 +78,17 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="660" y="580" width="-1" height="-1"/>
-=======
-              <AbsoluteConstraints x="920" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="920" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnLayanan">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/Group 75.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/Group 75 (1).png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btntrans.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgtrans.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -171,53 +99,17 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="450" y="580" width="-1" height="-1"/>
-=======
-              <AbsoluteConstraints x="610" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="610" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnBack">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/back100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/back50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/back.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/back1.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -228,53 +120,17 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="580" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="880" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="880" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnMember">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnMembership100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/btnMembership50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnmembership.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgmembership.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -285,11 +141,6 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="290" width="73" height="70"/>
             </Constraint>
           </Constraints>
@@ -312,47 +163,16 @@
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="5" y="220" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="280" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="280" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnPembelian">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnPembelian100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/btnPembelian50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnpembelian.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgpembelian.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -363,53 +183,17 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="150" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="190" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="190" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnProduct">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnProduk100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/btnProduk50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btnproduk.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgproduk.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -420,53 +204,17 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="80" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="100" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="100" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="btnTreatment">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/btnTreatment100.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/btnTreatment50.png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/btntreatment.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgtreatment.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -477,21 +225,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="5" y="10" width="73" height="70"/>
-=======
-              <AbsoluteConstraints x="20" y="10" width="90" height="90"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="20" y="10" width="90" height="90"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
@@ -501,21 +235,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="140" y="160" width="740" height="380"/>
-=======
-              <AbsoluteConstraints x="180" y="160" width="1130" height="660"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="180" y="160" width="1130" height="660"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
 
@@ -523,52 +243,14 @@
           <SubComponents>
             <Component class="javax.swing.JTable" name="tb_transaksi">
               <Properties>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="7" rowCount="0">
                     <Column editable="true" title="idTrans" type="java.lang.Object"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Cambria" size="18" style="0"/>
-                </Property>
-                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                  <Table columnCount="8" rowCount="0">
-                    <Column editable="true" title="idDetail" type="java.lang.Object"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
                     <Column editable="true" title="Member" type="java.lang.String"/>
                     <Column editable="true" title="Produk" type="java.lang.String"/>
                     <Column editable="true" title="Layanan" type="java.lang.String"/>
                     <Column editable="true" title="Tanggal" type="java.lang.String"/>
                     <Column editable="true" title="Jumlah" type="java.lang.Object"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                    <Column editable="true" title="Subtotal" type="java.lang.Object"/>
->>>>>>> upstream/main
-=======
-                    <Column editable="true" title="Subtotal" type="java.lang.Object"/>
->>>>>>> upstream/main
-=======
-=======
-                    <Column editable="true" title="Subtotal" type="java.lang.Object"/>
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                     <Column editable="true" title="Total" type="java.lang.Object"/>
                   </Table>
                 </Property>
@@ -609,27 +291,6 @@
                       <Editor/>
                       <Renderer/>
                     </Column>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                      <Title/>
-                      <Editor/>
-                      <Renderer/>
-                    </Column>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
                   </TableColumnModel>
                 </Property>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
@@ -642,32 +303,10 @@
         <Component class="javax.swing.JButton" name="btnProduk">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/button/Group 74.png"/>
             </Property>
             <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/button/Group 74 (1).png"/>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-              <Image iconType="3" name="/Image/buttransprod.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Image/bgtransprod.png"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             </Property>
           </Properties>
           <Events>
@@ -678,42 +317,14 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <AbsoluteConstraints x="220" y="580" width="-1" height="-1"/>
-=======
-              <AbsoluteConstraints x="280" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <AbsoluteConstraints x="280" y="880" width="-1" height="-1"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="labelTrans">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
               <Image iconType="3" name="/designKasir/transaksi (1).png"/>
-=======
-              <Image iconType="3" name="/Frame/transaksi.png"/>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-              <Image iconType="3" name="/Frame/transaksi.png"/>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             </Property>
           </Properties>
           <Constraints>
