@@ -247,62 +247,14 @@ public class ProdukKasir extends javax.swing.JFrame {
 
     private void btnpembelianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnpembelianActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-=======
-        new PembelianKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        new PembelianKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     }//GEN-LAST:event_btnpembelianActionPerformed
 
     private void btnmembershipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmembershipActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-=======
-        new MemberKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        new MemberKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     }//GEN-LAST:event_btnmembershipActionPerformed
 
     private void btntransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntransaksiActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-=======
-        new TransaksiKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        new TransaksiKasir().setVisible(true);
-        dispose();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     }//GEN-LAST:event_btntransaksiActionPerformed
 
     private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
