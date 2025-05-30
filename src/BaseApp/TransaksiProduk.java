@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -10,17 +5,6 @@
 package BaseApp;
 import Base.SignIn;
 import BaseApp.TransaksiKasir;
-=======
-package BaseApp;
-import Base.*;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-package BaseApp;
-import Base.*;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 import java.awt.Color;
 import java.awt.Component;
 import java.util.List;
@@ -38,11 +22,6 @@ import javax.swing.event.DocumentListener;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableColumnModel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /**
  *
  * @author ASUS
@@ -56,25 +35,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         this.Id = SignIn.LoggedInUser;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-
-public class TransaksiProduk extends javax.swing.JFrame {
-
-    public TransaksiProduk() {
-        initComponents();
-        setLocationRelativeTo(null);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         try {
             loadPromo();
         } catch (Exception e) {
@@ -203,21 +163,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
         txt_subtotal = new javax.swing.JTextField();
         txt_namaBarang = new javax.swing.JTextField();
         scan_barcode = new javax.swing.JTextField();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jLabel1 = new javax.swing.JLabel();
-=======
-        jLabel2 = new javax.swing.JLabel();
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jLabel2 = new javax.swing.JLabel();
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -226,114 +172,36 @@ public class TransaksiProduk extends javax.swing.JFrame {
 
         btnSimpan.setContentAreaFilled(false);
         btnSimpan.setBorderPainted(false);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 60 (1).png"))); // NOI18N
         btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 60.png"))); // NOI18N
-=======
-        btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsimpan.png"))); // NOI18N
-        btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsimpan.png"))); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsimpan.png"))); // NOI18N
-        btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsimpan.png"))); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnSimpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSimpanActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 140, -1, -1));
 
         btnBayar.setContentAreaFilled(false);
         btnBayar.setBorderPainted(false);
         btnBayar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/Group 27.png"))); // NOI18N
         btnBayar.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 27 (1).png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 190, -1, -1));
-
-        btnBayar.setContentAreaFilled(false);
-        btnBayar.setBorderPainted(false);
-        btnBayar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnbayar.png"))); // NOI18N
-        btnBayar.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgbayar.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnBayar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBayarActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnBayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 570, -1, -1));
 
         btnBack.setContentAreaFilled(false);
         btnBack.setBorderPainted(false);
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/back100.png"))); // NOI18N
         btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/back50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnBayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 830, -1, -1));
-
-        btnBack.setContentAreaFilled(false);
-        btnBack.setBorderPainted(false);
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 20, -1, -1));
-=======
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, -1));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, -1));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         tb_sementara.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -345,56 +213,18 @@ public class TransaksiProduk extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tb_sementara);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 240, 660, 150));
 
         btnHapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 80.png"))); // NOI18N
         btnHapus.setContentAreaFilled(false);
         btnHapus.setBorderPainted(false);
         btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/Group 80 (1).png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 350, 1060, 250));
-
-        btnHapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btndel.png"))); // NOI18N
-        btnHapus.setContentAreaFilled(false);
-        btnHapus.setBorderPainted(false);
-        btnHapus.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgdel.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnHapusActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 400, -1, -1));
-=======
-        jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 610, -1, -1));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 610, -1, -1));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         cmbx_diskon.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih promo" }));
         cmbx_diskon.setBorder(null);
@@ -403,21 +233,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 cmbx_diskonActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(cmbx_diskon, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 560, 160, 30));
-=======
-        jPanel1.add(cmbx_diskon, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 824, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(cmbx_diskon, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 824, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_kembali.setBorder(null);
         txt_kembali.addActionListener(new java.awt.event.ActionListener() {
@@ -425,21 +241,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_kembaliActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 520, 150, 30));
-=======
-        jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 766, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 766, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_bayar.setBorder(null);
         txt_bayar.addActionListener(new java.awt.event.ActionListener() {
@@ -447,21 +249,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_bayarActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 481, 150, 30));
-=======
-        jPanel1.add(txt_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 710, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 710, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_total.setBorder(null);
         txt_total.addActionListener(new java.awt.event.ActionListener() {
@@ -469,21 +257,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_totalActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(242, 600, 150, 30));
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 883, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 883, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_poin.setBorder(null);
         txt_poin.addActionListener(new java.awt.event.ActionListener() {
@@ -491,21 +265,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_poinActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_poin, new org.netbeans.lib.awtextra.AbsoluteConstraints(242, 519, 150, 30));
-=======
-        jPanel1.add(txt_poin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 765, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_poin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 765, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_rfid.setBorder(null);
         txt_rfid.addActionListener(new java.awt.event.ActionListener() {
@@ -513,21 +273,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_rfidActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_rfid, new org.netbeans.lib.awtextra.AbsoluteConstraints(242, 479, 150, 30));
-=======
-        jPanel1.add(txt_rfid, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 706, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_rfid, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 706, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_jumlah.setBorder(null);
         txt_jumlah.addActionListener(new java.awt.event.ActionListener() {
@@ -535,21 +281,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_jumlahActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 71, 150, 30));
-=======
-        jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 127, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 127, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_harga.setBorder(null);
         txt_harga.addActionListener(new java.awt.event.ActionListener() {
@@ -557,21 +289,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_hargaActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 30, 150, 30));
-=======
-        jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 56, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 56, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_subtotal.setBorder(null);
         txt_subtotal.addActionListener(new java.awt.event.ActionListener() {
@@ -579,21 +297,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_subtotalActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_subtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 129, 150, 30));
-=======
-        jPanel1.add(txt_subtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 194, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_subtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 194, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         txt_namaBarang.setBorder(null);
         txt_namaBarang.addActionListener(new java.awt.event.ActionListener() {
@@ -601,21 +305,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 txt_namaBarangActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_namaBarang, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 72, 150, 30));
-=======
-        jPanel1.add(txt_namaBarang, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 124, 230, 30));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_namaBarang, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 124, 230, 30));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         scan_barcode.setBorder(null);
         scan_barcode.addActionListener(new java.awt.event.ActionListener() {
@@ -623,65 +313,20 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 scan_barcodeActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(scan_barcode, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 150, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/transaksi produk (1).png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 670));
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(scan_barcode, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 53, 230, 30));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/transaksi produk.png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 940, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 673, Short.MAX_VALUE)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1374, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 983, Short.MAX_VALUE)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         );
 
         pack();
@@ -831,11 +476,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
         int selectedRow = tb_sementara.getSelectedRow();
 
         if (selectedRow >= 0) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             // Ambil kd_produk dari baris yang dipilih
             String kd_produk = model.getValueAt(selectedRow, 0).toString();
 
@@ -844,24 +484,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
 
                 // Query hapus data dari detail_sementara berdasarkan kd_produk
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            String kd_produk = model.getValueAt(selectedRow, 0).toString();
-
-            try {
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
                 String sqlDelete = "DELETE FROM detail_sementara WHERE kd_produk = ?";
                 PreparedStatement pstDelete = conn.prepareStatement(sqlDelete);
                 pstDelete.setString(1, kd_produk);
@@ -869,19 +491,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
                 int affectedRows = pstDelete.executeUpdate();
 
                 if (affectedRows > 0) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                     // Jika berhasil dihapus dari DB, hapus juga dari tabel
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-                    // Jika berhasil dihapus dari DB, hapus juga dari tabel
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                     model.removeRow(selectedRow);
                     JOptionPane.showMessageDialog(this, "Data berhasil dihapus.");
                 } else {
@@ -934,45 +544,17 @@ public class TransaksiProduk extends javax.swing.JFrame {
             if (selectedItem == null || selectedItem.equals("0 - Pilih Promo")) {
                 return;
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             // Parsing yang lebih robust dari item yang dipilih
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-            // Parsing yang lebih robust dari item yang dipilih
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             String[] parts = selectedItem.split(" - ", 2);
             if (parts.length < 2) {
                 throw new IllegalArgumentException("Format item tidak valid");
             }
             int selectedId = Integer.parseInt(parts[0].trim());
             String selectedName = parts[1].trim();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             // Ambil persentase diskon dari database
             int discountPercentage = getDiscountPercentage(selectedId);
 
             // Update total setelah memilih promo
-=======
-            int discountPercentage = getDiscountPercentage(selectedId);
-
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-            int discountPercentage = getDiscountPercentage(selectedId);
-
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             updateTotal();
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Format ID promo tidak valid", "Error", JOptionPane.ERROR_MESSAGE);
@@ -981,19 +563,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_cmbx_diskonActionPerformed
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     // Metode untuk mendapatkan persentase diskon dari database
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-    // Metode untuk mendapatkan persentase diskon dari database
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private int getDiscountPercentage(int promoId) {
         int discount = 0;
         String query = "SELECT diskon FROM promo WHERE id_promo = ?";
@@ -1010,19 +580,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
         return discount;
     }
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     // Improved supplier loading method
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-    // Improved supplier loading method
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void loadPromo() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/dinda_salon";
         String user = "root";
@@ -1074,11 +632,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
     }//GEN-LAST:event_txt_kembaliActionPerformed
 
     private void btnBayarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBayarActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
            try {
                 if (cmbx_diskon.getSelectedIndex() == 0) {
                     JOptionPane.showMessageDialog(this, "Harap Pilih Salah Satu!", "ERROR", JOptionPane.WARNING_MESSAGE);
@@ -1130,81 +683,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
     private void SimpanTransaksi(int IdUser, String idmemb, int diskon, LocalDate tgl_jual,
                                   String total_jual, String bayar_jual, String kembali_jual,
                                   List<ProdukItem> items) {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-               String username = SessionLogin.getUsername();
-    if (username == null || username.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Username tidak ditemukan. Silakan login kembali!");
-        return;
-    }
-        try {
-            if (cmbx_diskon.getSelectedIndex() == 0) {
-                JOptionPane.showMessageDialog(this, "Harap Pilih Salah Satu!", "ERROR", JOptionPane.WARNING_MESSAGE);
-                return;
-            }
-
-            DefaultTableModel model = (DefaultTableModel) tb_sementara.getModel();
-
-            List<String[]> listData = new ArrayList<>();
-
-            for (int i = 0; i < model.getRowCount(); i++) {
-                String id_sm = model.getValueAt(i, 0).toString();
-                String kd_brg = model.getValueAt(i, 1).toString(); 
-                String jumlah = model.getValueAt(i, 4).toString();
-                String subtotal = model.getValueAt(i, 5).toString(); 
-
-                String[] data = {id_sm, kd_brg, jumlah, subtotal};
-                listData.add(data); 
-            }
-            
-            String RF = txt_rfid.getText();
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/dinda_salon", "root", "");
-            String query = "SELECT id_member FROM member WHERE rfID = ?";
-            PreparedStatement stm = conn.prepareStatement(query);
-            stm.setString(1, RF);
-            ResultSet rs = stm.executeQuery();
-            String idmemb = null;
-                if (rs.next()) {
-                    idmemb = rs.getString("id_member");
-                } else{
-                    JOptionPane.showMessageDialog(this, "Member tidak ditemukan!", "ERROR", JOptionPane.WARNING_MESSAGE);
-                    return;
-                }         
-            int diskon = getIdFromComboBox(cmbx_diskon);
-            LocalDate tgl_jual = LocalDate.now();
-            String total_jual = txt_total.getText();
-            String bayar_jual = txt_bayar.getText();
-            String kembali_jual = txt_kembali.getText();
-            int Layanan = 1;
-            
-            for (String[] data : listData) {
-                String id_sm = data[0]; 
-                String kd_brg = data[1]; 
-                String jumlah = data[2]; 
-                String subtotal = data[3]; 
-
-                SimpanTransaksi(username, idmemb, diskon, tgl_jual, total_jual, bayar_jual, kembali_jual, kd_brg, jumlah, subtotal, id_sm, Layanan);
-            }
-
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "YAHH Gagal melakukan transaksi: " + e.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
-        }
-
-    }//GEN-LAST:event_btnBayarActionPerformed
-
-    //proses untuk simpan transaksi bayar
-    private void SimpanTransaksi(String IdUser, String idmemb,int diskon,LocalDate tgl_jual, String total_jual, String bayar_jual, String kembali_jual, String kd_brg, String jumlah, String subtotal, String id_sm, int Layanan){
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         Connection conn = null;
         PreparedStatement stmt1 = null;
         PreparedStatement stmt2 = null;
@@ -1214,47 +692,18 @@ public class TransaksiProduk extends javax.swing.JFrame {
             String user = "root";
             String pw = "";
             conn = DriverManager.getConnection(url, user, pw);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
             conn.setAutoCommit(false);
 
             String insert1 = "INSERT INTO transaksi (id_user, id_member, id_promo, tgl_transaksi, total_transaksi, bayar, kembali) VALUES (?, ?, ?, ?, ?, ?, ?)";
             stmt1 = conn.prepareStatement(insert1, Statement.RETURN_GENERATED_KEYS);
             stmt1.setInt(1, IdUser);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            
-            conn.setAutoCommit(false);
-            
-            String insert1 = "INSERT INTO transaksi (id_user, id_member, id_promo, tgl_transaksi, total_transaksi, bayar, kembali) VALUES (?, ?, ?, ?, ?, ?, ?)";
-            stmt1 = conn.prepareStatement(insert1, Statement.RETURN_GENERATED_KEYS);
-            stmt1.setString(1, IdUser);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             stmt1.setString(2, idmemb);
             stmt1.setInt(3, diskon);
             stmt1.setDate(4, java.sql.Date.valueOf(tgl_jual));
             stmt1.setString(5, total_jual);
             stmt1.setString(6, bayar_jual);
             stmt1.setString(7, kembali_jual);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
             int affectedRows = stmt1.executeUpdate();
 
@@ -1297,62 +746,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
             new TransaksiKasir().setVisible(true);
             this.dispose();
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            
-            int afectedrows = stmt1.executeUpdate();
-
-            int idTrans = 0;
-            if (afectedrows > 0) {
-                try (ResultSet generatedKeys = stmt1.getGeneratedKeys()){
-                    if (generatedKeys.next()) {
-                        idTrans = generatedKeys.getInt(1);
-                    }
-                } 
-            }
-            
-            if (idTrans == 0) {
-                throw new SQLException("Menyimpan transaksi gagal, Id transaksi tidak tersedia!");
-            }
-            
-            String insert2 = "INSERT INTO detail_transaksi (id_detail, id_transaksi,id_layanan, kd_produk, jumlah_jual, subtotal) VALUES (?, ?, ?, ?, ?, ?)";
-            stmt2 = conn.prepareStatement(insert2);
-            stmt2.setString(1, id_sm);
-            stmt2.setInt(2, idTrans);
-            stmt2.setInt(3, Layanan);
-            stmt2.setString(4, kd_brg);
-            stmt2.setString(5, jumlah);
-            stmt2.setString(6, subtotal);
-            stmt2.executeUpdate();
-            
-            String hapus = "DELETE FROM detail_sementara WHERE id_sementara = ?";
-            stmt3 = conn.prepareStatement(hapus);
-            stmt3.setString(1, id_sm);
-            
-            int result = stmt3.executeUpdate();
-            
-            conn.commit();
-            
-             if (result > 0) {
-                JOptionPane.showMessageDialog(this, "Transaksi berhasil ditambahkan.", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-            } else {
-                JOptionPane.showMessageDialog(this, "Gagal menambahkan transaksi. Coba lagi.", "Error", JOptionPane.ERROR_MESSAGE);
-            }
-             
-             new TransaksiKasir().setVisible(true);
-             this.dispose();
-             
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         } catch (Exception e) {
             if (conn != null) {
                 try {
@@ -1374,11 +767,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
             }
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
     // Kelas bantu untuk menyimpan data item produk
     class ProdukItem {
@@ -1404,13 +792,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
         public int getId_layanan() { return id_layanan; }
     }
 
-=======
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     
     //proses untuk isi kembali otomatis
     private void updateKembali(){
@@ -1419,38 +800,14 @@ public class TransaksiProduk extends javax.swing.JFrame {
             int bayar = Integer.parseInt(txt_bayar.getText());
             int kembali = bayar - total;
             
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             //memastikan nilai nya tida negatif
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-            //memastikan nilai nya tida negatif
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             if (kembali < 0) {
                 txt_kembali.setText("0");
             }else{
                 txt_kembali.setText(String.valueOf(kembali));
             }
         } catch (Exception e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             //jika inputan bayar kosong
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-            //jika inputan bayar kosong
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             txt_kembali.setText("");
         }
     }
@@ -1458,20 +815,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -1495,22 +838,6 @@ public class TransaksiProduk extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-=======
-        //</editor-fold>
-        //</editor-fold>
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        //</editor-fold>
-        //</editor-fold>
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -1526,21 +853,7 @@ public class TransaksiProduk extends javax.swing.JFrame {
     private javax.swing.JButton btnHapus;
     private javax.swing.JButton btnSimpan;
     private javax.swing.JComboBox<String> cmbx_diskon;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JLabel jLabel1;
-=======
-    private javax.swing.JLabel jLabel2;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private javax.swing.JLabel jLabel2;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField scan_barcode;
