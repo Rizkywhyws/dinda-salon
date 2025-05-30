@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 <project name="dinda_salon" default="default" basedir=".">
@@ -47,6 +48,10 @@
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+<project name="DindaSalonTAok" default="default" basedir=".">
+    <description>Builds, tests, and runs the project DindaSalonTAok.</description>
+>>>>>>> upstream/main
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -101,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         <target name="run" depends="dinda_salon-impl.jar">
@@ -128,6 +134,9 @@
 =======
 >>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>

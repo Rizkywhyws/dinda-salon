@@ -24,6 +24,7 @@ is divided into following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 <project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="dinda_salon-impl">
@@ -39,6 +40,9 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTAok-impl">
+>>>>>>> upstream/main
 =======
 <project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="DindaSalonTAok-impl">
 >>>>>>> upstream/main
@@ -646,6 +650,7 @@ is divided into following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                 <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="dinda_salon" testname="TestNG tests" workingDir="${work.dir}">
@@ -661,6 +666,9 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTAok" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> upstream/main
 =======
                 <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="DindaSalonTAok" testname="TestNG tests" workingDir="${work.dir}">
 >>>>>>> upstream/main
@@ -765,6 +773,7 @@ is divided into following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
                 <condition else="-suitename dinda_salon -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
@@ -780,6 +789,9 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+                <condition else="-suitename DindaSalonTAok -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> upstream/main
 =======
                 <condition else="-suitename DindaSalonTAok -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
 >>>>>>> upstream/main
@@ -1128,6 +1140,7 @@ is divided into following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         <echo level="warn" message="Cycle detected: dinda_salon was already built"/>
@@ -1143,6 +1156,9 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
 =======
         <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
 >>>>>>> upstream/main
@@ -1821,6 +1837,7 @@ is divided into following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         <echo level="warn" message="Cycle detected: dinda_salon was already built"/>
@@ -1836,6 +1853,9 @@ is divided into following sections:
 >>>>>>> upstream/main
 =======
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
+>>>>>>> upstream/main
 =======
         <echo level="warn" message="Cycle detected: DindaSalonTAok was already built"/>
 >>>>>>> upstream/main

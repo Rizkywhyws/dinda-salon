@@ -4,7 +4,11 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <name>dindasalon</name>
+=======
+            <name>DindaSalonTAok</name>
+>>>>>>> upstream/main
 =======
             <name>DindaSalonTAok</name>
 >>>>>>> upstream/main
@@ -17,7 +21,11 @@
         </data>
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> upstream/main
 =======
 </project>
 >>>>>>> upstream/main
