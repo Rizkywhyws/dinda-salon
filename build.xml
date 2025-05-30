@@ -8,6 +8,10 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <<<<<<< HEAD
+<project name="Salon" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Salon.</description>
+=======
+<<<<<<< HEAD
 <project name="dindasalon" default="default" basedir=".">
     <description>Builds, tests, and runs the project dindasalon.</description>
 =======
@@ -55,6 +59,7 @@
 =======
 <project name="DindaSalonTAok" default="default" basedir=".">
     <description>Builds, tests, and runs the project DindaSalonTAok.</description>
+>>>>>>> upstream/main
 >>>>>>> upstream/main
 >>>>>>> upstream/main
     <import file="nbproject/build-impl.xml"/>
@@ -107,6 +112,9 @@
     An example of overriding the target for project execution could look like this:
 
 <<<<<<< HEAD
+        <target name="run" depends="Salon-impl.jar">
+=======
+<<<<<<< HEAD
         <target name="run" depends="dindasalon-impl.jar">
 =======
 <<<<<<< HEAD
@@ -144,6 +152,7 @@
 >>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 =======
         <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
 >>>>>>> upstream/main
 >>>>>>> upstream/main
             <exec dir="bin" executable="launcher.exe">
