@@ -7,8 +7,51 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+<project name="dinda_salon" default="default" basedir=".">
+    <description>Builds, tests, and runs the project dinda_salon.</description>
+=======
+<project name="dindasalon" default="default" basedir=".">
+    <description>Builds, tests, and runs the project dindasalon.</description>
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+<project name="dindasalon" default="default" basedir=".">
+    <description>Builds, tests, and runs the project dindasalon.</description>
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
 <project name="DindaSalonTAok" default="default" basedir=".">
     <description>Builds, tests, and runs the project DindaSalonTAok.</description>
+>>>>>>> upstream/main
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+<project name="DindaSalonTAok" default="default" basedir=".">
+    <description>Builds, tests, and runs the project DindaSalonTAok.</description>
+>>>>>>> upstream/main
+=======
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+<project name="DindaSalonTAok" default="default" basedir=".">
+    <description>Builds, tests, and runs the project DindaSalonTAok.</description>
+>>>>>>> upstream/main
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +101,42 @@
 
     An example of overriding the target for project execution could look like this:
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+        <target name="run" depends="dinda_salon-impl.jar">
+=======
         <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
+=======
+        <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/main
+=======
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+        <target name="run" depends="dindasalon-impl.jar">
+=======
+        <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+=======
+>>>>>>> upstream/main
+=======
+>>>>>>> f7ca87b342d3df5e5a543983a86662fe3e1e4525
+>>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
+=======
+        <target name="run" depends="DindaSalonTAok-impl.jar">
+>>>>>>> upstream/main
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
