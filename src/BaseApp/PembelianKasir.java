@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -11,17 +6,6 @@ package BaseApp;
 import Base.SignIn;
 import Base.TreatmentKasir;
 import BaseApp.DashboardKasir;
-=======
-package BaseApp;
-import Base.*;
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-package BaseApp;
-import Base.*;
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 import javax.swing.JOptionPane;
 import java.sql.SQLException;
 import java.awt.Color;
@@ -35,11 +19,6 @@ import javax.swing.DefaultListCellRenderer;
 import javax.swing.JComponent;
 import javax.swing.JList;
 import javax.swing.table.DefaultTableModel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 /**
  *
  * @author ASUS
@@ -54,27 +33,6 @@ private static String Id;
         addInputListener();
         setLocationRelativeTo(null);
         this.Id = SignIn.LoggedInUser;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-
-public final class PembelianKasir extends javax.swing.JFrame {
-
-    public PembelianKasir() {
-        setUndecorated(true);
-        initComponents();   
-        addInputListener();
-        setLocationRelativeTo(null);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         // ini keyListener agar hanya bisa input angka saja pada txt_jumlah
         txt_jumlah.addKeyListener(new java.awt.event.KeyAdapter() {
             @Override
@@ -149,19 +107,7 @@ public final class PembelianKasir extends javax.swing.JFrame {
         btnBack = new javax.swing.JButton();
         btnMember = new javax.swing.JButton();
         btnTransaksi = new javax.swing.JButton();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         btnPembelian = new javax.swing.JButton();
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-        btnPembelian = new javax.swing.JButton();
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnProduct = new javax.swing.JButton();
         btnTreatment = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -181,104 +127,35 @@ public final class PembelianKasir extends javax.swing.JFrame {
 
         btnBack.setContentAreaFilled(false);
         btnBack.setBorderPainted(false);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/back100.png"))); // NOI18N
         btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnMembership50.png"))); // NOI18N
-=======
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back.png"))); // NOI18N
-        btnBack.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/back1.png"))); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 580, 73, 70));
 
         btnMember.setContentAreaFilled(false);
         btnMember.setBorderPainted(false);
         btnMember.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnMembership100.png"))); // NOI18N
         btnMember.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnMembership50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 880, 90, -1));
-
-        btnMember.setContentAreaFilled(false);
-        btnMember.setBorderPainted(false);
-        btnMember.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnmembership.png"))); // NOI18N
-        btnMember.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgmembership.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnMember.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMemberActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnMember, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 290, 73, 70));
 
         btnTransaksi.setContentAreaFilled(false);
         btnTransaksi.setBorderPainted(false);
         btnTransaksi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTransaksi100.png"))); // NOI18N
         btnTransaksi.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTransaksi50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnMember, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 90, 90));
-
-        btnTransaksi.setContentAreaFilled(false);
-        btnTransaksi.setBorderPainted(false);
-        btnTransaksi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntransaksi.png"))); // NOI18N
-        btnTransaksi.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtransaksi.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnTransaksi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTransaksiActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnTransaksi, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 220, 73, 70));
 
         btnPembelian.setContentAreaFilled(false);
@@ -296,85 +173,24 @@ public final class PembelianKasir extends javax.swing.JFrame {
         btnProduct.setBorderPainted(false);
         btnProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnProduk100.png"))); // NOI18N
         btnProduct.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnProduk50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnTransaksi, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 90, 90));
-
-        btnProduct.setContentAreaFilled(false);
-        btnProduct.setBorderPainted(false);
-        btnProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnproduk.png"))); // NOI18N
-        btnProduct.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgproduk.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProductActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 80, 73, 70));
 
         btnTreatment.setContentAreaFilled(false);
         btnTreatment.setBorderPainted(false);
         btnTreatment.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTreatment100.png"))); // NOI18N
         btnTreatment.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/btnTreatment50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(btnProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 90, 90));
-
-        btnTreatment.setContentAreaFilled(false);
-        btnTreatment.setBorderPainted(false);
-        btnTreatment.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btntreatment.png"))); // NOI18N
-        btnTreatment.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgtreatment.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnTreatment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTreatmentActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnTreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 10, 73, 70));
 
-=======
-        jPanel1.add(btnTreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, 90));
-
-        tb_pembelian.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnTreatment, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 90, 90));
-
-        tb_pembelian.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         tb_pembelian.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -396,61 +212,19 @@ public final class PembelianKasir extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tb_pembelian);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, -1, 310));
 
         btnSimpan.setContentAreaFilled(false);
         btnSimpan.setBorderPainted(false);
         btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/button/simpan100.png"))); // NOI18N
         btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/button/simpan50.png"))); // NOI18N
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 190, 660, 540));
-
-        btnSimpan.setContentAreaFilled(false);
-        btnSimpan.setBorderPainted(false);
-        btnSimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/btnsave.png"))); // NOI18N
-        btnSimpan.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/bgsave.png"))); // NOI18N
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         btnSimpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSimpanActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 590, 320, 60));
 
-=======
-        jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 860, 380, 70));
-
-        cmbx_produk.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(btnSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 860, 380, 70));
-
-        cmbx_produk.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         cmbx_produk.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih nama produk" }));
         cmbx_produk.setBorder(null);
         cmbx_produk.addActionListener(new java.awt.event.ActionListener() {
@@ -458,26 +232,8 @@ public final class PembelianKasir extends javax.swing.JFrame {
                 cmbx_produkActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(cmbx_produk, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 263, 270, 26));
 
-=======
-        jPanel1.add(cmbx_produk, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 390, 390, 26));
-
-        cmbx_supplier.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(cmbx_produk, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 390, 390, 26));
-
-        cmbx_supplier.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         cmbx_supplier.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih nama supplier" }));
         cmbx_supplier.setBorder(null);
         cmbx_supplier.addActionListener(new java.awt.event.ActionListener() {
@@ -485,78 +241,24 @@ public final class PembelianKasir extends javax.swing.JFrame {
                 cmbx_supplierActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(cmbx_supplier, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 201, 270, 26));
 
-=======
-        jPanel1.add(cmbx_supplier, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 300, 390, 26));
-
-        txt_total.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(cmbx_supplier, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 300, 390, 26));
-
-        txt_total.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_total.setBorder(null);
         txt_total.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_totalActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 440, 270, 26));
 
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 650, 390, 26));
-
-        txt_jumlah.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 650, 390, 26));
-
-        txt_jumlah.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_jumlah.setBorder(null);
         txt_jumlah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_jumlahActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 380, 270, 26));
 
-=======
-        jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 560, 390, 26));
-
-        txt_harga.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 560, 390, 26));
-
-        txt_harga.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         txt_harga.setText("Rp");
         txt_harga.setBorder(null);
         txt_harga.addActionListener(new java.awt.event.ActionListener() {
@@ -564,27 +266,9 @@ public final class PembelianKasir extends javax.swing.JFrame {
                 txt_hargaActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 319, 270, 26));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/designKasir/Pembelian (2).png"))); // NOI18N
-=======
-        jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 470, 390, 26));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/Pembelian (1).png"))); // NOI18N
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-        jPanel1.add(txt_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 470, 390, 26));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Frame/Pembelian (1).png"))); // NOI18N
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -602,11 +286,6 @@ public final class PembelianKasir extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnTreatmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTreatmentActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         TreatmentKasir abal = new TreatmentKasir();
         abal.setVisible(true);
         abal.pack();
@@ -644,36 +323,6 @@ public final class PembelianKasir extends javax.swing.JFrame {
         abal.pack();
         abal.setLocationRelativeTo(null);
         this.dispose();
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        new TreatmentKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnTreatmentActionPerformed
-
-    private void btnProductActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductActionPerformed
-        new ProductKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnProductActionPerformed
-
-    private void btnTransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTransaksiActionPerformed
-        new TransaksiKasir().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_btnTransaksiActionPerformed
-
-    private void btnMemberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMemberActionPerformed
-        new MemberKasir().setVisible(true);
-        dispose();
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
     }//GEN-LAST:event_btnMemberActionPerformed
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
@@ -682,27 +331,6 @@ public final class PembelianKasir extends javax.swing.JFrame {
     }//GEN-LAST:event_btnBackActionPerformed
 
     private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanActionPerformed
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-        int idUser = SessionLogin.getIdUser();
-if (idUser == 0) {
-    JOptionPane.showMessageDialog(this, "User belum login, silakan login kembali!", "ERROR", JOptionPane.WARNING_MESSAGE);
-    return;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
         try {
             //validasi agar inputan di isi oleh user
             if (cmbx_produk.getSelectedIndex() == 0 || cmbx_supplier.getSelectedIndex() == 0) {
@@ -720,29 +348,11 @@ if (idUser == 0) {
             String harga = txt_harga.getText();
             String jumlah = txt_jumlah.getText();
             String total = txt_total.getText();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             int IdUser = SessionLogin.getIdUser();
             LocalDate tgl_beli = LocalDate.now();
             
             //memanggil method lain
             SimpanTransaksi(idSupplier, idProduk, harga, jumlah, total, IdUser, tgl_beli);
-=======
-            LocalDate tgl_beli = LocalDate.now();
-            
-            SimpanTransaksi(idSupplier, idProduk, harga, jumlah, total, idUser, tgl_beli);
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-            LocalDate tgl_beli = LocalDate.now();
-            
-            SimpanTransaksi(idSupplier, idProduk, harga, jumlah, total, idUser, tgl_beli);
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "YAHH Gagal melakukan transaksi!", "ERROR", JOptionPane.ERROR_MESSAGE);
@@ -750,21 +360,7 @@ if (idUser == 0) {
     }//GEN-LAST:event_btnSimpanActionPerformed
 
     //method untuk proses simpan transaksi
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private void SimpanTransaksi(int idSupplier,String idProduk, String harga, String jumlah, String total, int IdUser, LocalDate tgl_beli){
-=======
-    private void SimpanTransaksi(int idSupplier,String idProduk, String harga, String jumlah, String total, int idUser, LocalDate tgl_beli){
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-    private void SimpanTransaksi(int idSupplier,String idProduk, String harga, String jumlah, String total, int idUser, LocalDate tgl_beli){
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         Connection conn = null;
         java.sql.PreparedStatement stmt1 = null;
         java.sql.PreparedStatement stmt2 = null;
@@ -780,32 +376,10 @@ if (idUser == 0) {
             //query untuk menambah data ke database
             String insert1 = "INSERT INTO pembelian (id_user, id_supplier, tgl_beli, total_beli) VALUES (?, ?, ?, ?)";
             stmt1 = conn.prepareStatement(insert1, Statement.RETURN_GENERATED_KEYS);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             stmt1.setInt(1, IdUser);
             stmt1.setInt(2, idSupplier);
             stmt1.setDate(3, java.sql.Date.valueOf(tgl_beli));
             stmt1.setString(4, total);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            stmt1.setInt(1, idUser);
-            stmt1.setInt(2, idSupplier);
-            stmt1.setDate(3, java.sql.Date.valueOf(tgl_beli));
-            stmt1.setDouble(4, Double.parseDouble(total));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             
             //eksekusi table pertama
             int afectedrows = stmt1.executeUpdate();
@@ -830,21 +404,7 @@ if (idUser == 0) {
             stmt2 = conn.prepareStatement(insert2);
             stmt2.setInt(1, idTrans);
             stmt2.setString(2, idProduk);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             stmt2.setString(3, jumlah);
-=======
-            stmt2.setInt(3, Integer.parseInt(jumlah));
->>>>>>> upstream/main
-<<<<<<< HEAD
-=======
-            stmt2.setInt(3, Integer.parseInt(jumlah));
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             
             int result = stmt2.executeUpdate();
             
@@ -860,11 +420,6 @@ if (idUser == 0) {
              
              LoadData();
         } catch (Exception e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
             if (conn != null) {
             try {
                 System.out.println("Terjadi kesalahan, transaksi dibatalkan!");
@@ -874,29 +429,6 @@ if (idUser == 0) {
             }
         }
         e.printStackTrace(); // <-- Tambahkan ini!
-=======
-<<<<<<< HEAD
-=======
->>>>>>> upstream/main
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
-            //jika ada kesalahan, rollback transaksi
-            if (conn != null) {
-                try {
-                    System.out.println("Terjadi kesalahan, transaksi dibatalkan!");
-                    conn.rollback();
-                } catch (Exception ex) {
-                    ex.printStackTrace();
-                }
-            }
-            
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-=======
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
->>>>>>> upstream/main
             
         }
     }
@@ -1123,20 +655,6 @@ if (idUser == 0) {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
-=======
-=======
-        System.setProperty("sun.java2d.uiScale", "1");
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -1159,20 +677,6 @@ if (idUser == 0) {
             java.util.logging.Logger.getLogger(PembelianKasir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        //</editor-fold>
->>>>>>> upstream/main
-=======
-        //</editor-fold>
->>>>>>> upstream/main
-=======
-=======
-        //</editor-fold>
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -1185,19 +689,7 @@ if (idUser == 0) {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnMember;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     private javax.swing.JButton btnPembelian;
-=======
->>>>>>> upstream/main
-=======
->>>>>>> upstream/main
-=======
-    private javax.swing.JButton btnPembelian;
-=======
->>>>>>> upstream/main
->>>>>>> 49a97e0045e2a45eda10793666a89f011bea1896
     private javax.swing.JButton btnProduct;
     private javax.swing.JButton btnSimpan;
     private javax.swing.JButton btnTransaksi;
